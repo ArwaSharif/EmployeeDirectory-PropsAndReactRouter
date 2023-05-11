@@ -1,0 +1,35 @@
+.homepage {
+  border: 4pt solid orangered;
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.empProfilePage {
+  border: 4pt solid rgb(39, 182, 108);
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.homeHeader {
+  border: 4pt solid blue;
+}
+
+.searchBar {
+  border: 4pt solid rgb(21, 21, 12);
+}
+
+.empItems {
+  border: 4pt solid blueviolet;
+}
+
+.empList {
+  border: 4pt solid greenyellow;
+}
+
+.empPageHeader {
+  border: 4pt solid rgb(73, 73, 231);
+}
