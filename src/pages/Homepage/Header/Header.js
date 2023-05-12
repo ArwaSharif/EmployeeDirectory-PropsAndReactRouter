@@ -3,7 +3,7 @@
 export default function Header (){
     return(
         <div className="homeHeader">
-            Homepage Header
+            <h1> Employee Directory </h1>
         </div>
     )
 }

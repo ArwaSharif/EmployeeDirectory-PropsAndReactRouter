@@ -1,0 +1,24 @@
+.empItems {
+  /* border: 4pt solid blueviolet; */
+  border: 3px solid rgb(206, 72, 72);
+  margin-bottom: 1px;
+  display: flex;
+  gap: 23px;
+}
+.imgDiv > img {
+  margin: 7% 6% 7% 11%;
+  border-radius: 50%;
+  width: 87px;
+  height: 84px;
+}
+
+.employeeNameTitle {
+  text-align: left;
+}
+h2 {
+  margin-bottom: 4px;
+}
+
+p {
+  font-size: 12pt;
+}

@@ -1,7 +1,11 @@
 .App {
   border: 4pt solid red;
+  background-color: #1e1e1e;
+  color: aliceblue;
 }
-
+a {
+  color: aliceblue;
+}
 .pagesContainer {
   text-align: center;
   border: 4pt solid pink;

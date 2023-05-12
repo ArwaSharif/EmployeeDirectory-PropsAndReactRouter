@@ -1,0 +1,12 @@
+.searchBar {
+  border: 4pt solid rgb(21, 21, 12);
+  height: 100%;
+  margin-bottom: 3%;
+}
+
+.searchInput {
+  width: 98.5%;
+  height: 90%;
+  border-radius: 9px;
+  border-color: snow;
+}

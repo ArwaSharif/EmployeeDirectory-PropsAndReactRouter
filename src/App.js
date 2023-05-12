@@ -1,15 +1,22 @@
-import "./App.css";
-import './components/pages.css'
 import { Route, Routes } from "react-router-dom";
-import Homepage from "./components/Homepage/Homepage";
-import EmployeePage from "./components/employeePage/EmployeePage";
+import { useState, useEffect } from "react";
+import "./App.css";
+import Homepage from "./pages/Homepage/Homepage";
+import EmployeeProfilePage from "./pages/EmployeeProfilePage/EmployeeProfilePage";
+import employeeData from './database/employeeData'
 
 function App() {
+  // const [emp, setEmp] = useState(emp)
+
   return (
     <div className="App">
       <div className="pagesContainer">
-        <Homepage />
-        <EmployeePage />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/employeeProfile/:symbol" element={<EmployeeProfilePage empData={employeeData}/>} />
+
+        </Routes>
+        {/* <EmployeeProfilePage /> */}
         </div>
     </div>
   );
