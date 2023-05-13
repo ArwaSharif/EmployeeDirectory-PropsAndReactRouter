@@ -1,15 +1,14 @@
 .App {
-  border: 4pt solid red;
-  background-color: #1e1e1e;
-  color: aliceblue;
+  border: 1pt solid lightslategray;
 }
 a {
-  color: aliceblue;
+  color: black;
 }
 .pagesContainer {
   text-align: center;
-  border: 4pt solid pink;
-  margin: 10% 10%;
+  border: 3pt solid black;
+  margin: 0 10% 0 10%;
   display: flex;
   flex-direction: row;
+  /* height: ; */
 }

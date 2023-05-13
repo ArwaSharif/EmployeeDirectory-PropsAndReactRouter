@@ -1,7 +1,7 @@
 .homepage {
-  border: 4pt solid orangered;
+  border: 4pt solid black;
   width: 100%;
-  min-height: auto;
+  /* min-height: auto; */
   /* display: flex;
   flex-direction: column; */
 }

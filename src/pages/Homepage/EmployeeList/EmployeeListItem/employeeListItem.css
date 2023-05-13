@@ -1,6 +1,9 @@
+.itemsMap > a {
+  text-decoration: none;
+}
 .empItems {
   /* border: 4pt solid blueviolet; */
-  border: 3px solid rgb(206, 72, 72);
+  border: 3px solid black;
   margin-bottom: 1px;
   display: flex;
   gap: 23px;

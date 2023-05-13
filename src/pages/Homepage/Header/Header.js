@@ -1,9 +1,9 @@
+import "./header.css";
 
-
-export default function Header (){
-    return(
-        <div className="homeHeader">
-            <h1> Employee Directory </h1>
-        </div>
-    )
+export default function Header() {
+  return (
+    <div className="homeHeader">
+      <h2> Employee Directory </h2>
+    </div>
+  );
 }

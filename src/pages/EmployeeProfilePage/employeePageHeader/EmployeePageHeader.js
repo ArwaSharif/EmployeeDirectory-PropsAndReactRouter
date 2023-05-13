@@ -1,14 +1,22 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import "./employeePageHeader.css";
 
-export default function EmployeePageHeader (){
-    return(
-        <div className="empPageHeader">
-        <div className="btnDiv">
-            <button>
-                <Link to="/"> <img className="arrowImg" src="./arrow-img.png" alt="arrow pointing to the left" /> </Link>
-            </button>
-        </div>
-        <h1 className="empPageHead">Employee</h1>
-        </div>
-    )
+export default function EmployeePageHeader() {
+  const arrow = "<";
+  return (
+    <div className="empPageHeader">
+      <span>
+        <Link to="/" className="empPageHead">
+          <h2>
+            {" "}
+            <span style={{ float: "left", paddingLeft: "3%" }}>
+              {arrow}
+            </span>{" "}
+            Back to Employee Directory
+          </h2>
+          <br />
+        </Link>
+      </span>
+    </div>
+  );
 }

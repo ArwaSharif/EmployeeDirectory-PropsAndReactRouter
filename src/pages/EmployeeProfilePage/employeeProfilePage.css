@@ -1,7 +1,41 @@
 .empProfilePage {
-  border: 4pt solid rgb(39, 182, 108);
+  border: 3pt solid black;
   width: 100%;
   min-height: auto;
   /* display: flex;
   flex-direction: column; */
+}
+
+.empProfile {
+  border-top: 4pt solid black;
+}
+
+.profileItem {
+  margin-bottom: 1px;
+  display: flex;
+  gap: 10px;
+  padding-left: 2%;
+}
+.profileImg > img {
+  margin: 7% 0% 7% 0%;
+  border-radius: 50%;
+  width: 87px;
+  height: 84px;
+}
+
+.profileName {
+  text-align: center;
+}
+h2 {
+  margin-bottom: 4px;
+}
+
+p {
+  font-size: 12pt;
+}
+
+.profileDivs,
+profileDivs > div h2 p {
+  text-align: left;
+  margin-left: 5%;
 }

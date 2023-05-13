@@ -1,7 +1,6 @@
 .searchBar {
-  border: 4pt solid rgb(21, 21, 12);
-  height: 100%;
-  margin-bottom: 3%;
+  border-top: 3pt solid black;
+  height: 5%;
 }
 
 .searchInput {

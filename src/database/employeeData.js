@@ -1,4 +1,4 @@
-// import Pic1 from "./profileImgs/canary.webp";
+import Pic1 from "./profileImgs/canary.webp";
 import Pic2 from "./profileImgs/Cat.jpg";
 import Pic3 from "./profileImgs/FinnJake.webp";
 import Pic4 from "./profileImgs/Gon.jpg";
@@ -9,9 +9,9 @@ export default [
     {
         name: "James King", 
         title: "President and CEO", 
-        img: './profileImgs/canary.webp',
-        'Call Office': "000-111-2222",
-        'Call Mobile': "333-444-5555",
+        img: Pic1,
+        CallOffice: "000-111-2222",
+        CallMobile: "333-444-5555",
         SMS: "666-777-8888",
         Email: 'emp@comp.com',
         symbol: 0
@@ -19,9 +19,9 @@ export default [
     {
         name: "Julie Taylor", 
         title: "VP of Marketing", 
-        img: {Pic2},
-        'Call Office': "000-111-2222",
-        'Call Mobile': "333-444-5555",
+        img: Pic2,
+        CallOffice: "000-111-2222",
+        CallMobile: "333-444-5555",
         SMS: "666-777-8888",
         Email: 'emp@comp.com',
         symbol: 1
@@ -29,9 +29,9 @@ export default [
     {
         name: "Eugene Lee", 
         title: "CFO", 
-        img: {Pic3},
-        'Call Office': "000-111-2222",
-        'Call Mobile': "333-444-5555",
+        img: Pic3,
+        CallOffice: "000-111-2222",
+        CallMobile: "333-444-5555",
         SMS: "666-777-8888",
         Email: 'emp@comp.com',
         symbol: 2
@@ -39,9 +39,9 @@ export default [
     {
         name: "John Williams", 
         title: "VP of Engineering", 
-        img: {Pic4},
-        'Call Office': "000-111-2222",
-        'Call Mobile': "333-444-5555",
+        img: Pic4,
+        CallOffice: "000-111-2222",
+        CallMobile: "333-444-5555",
         SMS: "666-777-8888",
         Email: 'emp@comp.com',
         symbol: 3
@@ -49,9 +49,9 @@ export default [
     {
         name: "Ray Moore", 
         title: "VP of Sales", 
-        img: {Pic5},
-        'Call Office': "000-111-2222",
-        'Call Mobile': "333-444-5555",
+        img: Pic5,
+        CallOffice: "000-111-2222",
+        CallMobile: "333-444-5555",
         SMS: "666-777-8888",
         Email: 'emp@comp.com',
         symbol: 4
@@ -59,9 +59,9 @@ export default [
     {
         name: "Paul Jones", 
         title: "QA Manager", 
-        img: {Pic6},
-        'Call Office': "000-111-2222",
-        'Call Mobile': "333-444-5555",
+        img: Pic6,
+        CallOffice: "000-111-2222",
+        CallMobile: "333-444-5555",
         SMS: "666-777-8888",
         Email: 'emp@comp.com',
         symbol: 5

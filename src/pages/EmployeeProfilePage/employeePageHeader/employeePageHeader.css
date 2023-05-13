@@ -1,16 +1,8 @@
 .empPageHeader {
-    border: 4pt solid rgb(73, 73, 231);
-  }
-  
-
-.arrowImg {
-
-}
-
-.btnDiv {
-
+  text-align: center;
+  margin-bottom: -2%;
 }
 
 .empPageHead {
-
+  text-decoration: none;
 }
